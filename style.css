@@ -1,0 +1,40 @@
+/*common css start*/
+body{}
+/*common css end*/
+
+/*header start*/
+header{
+    overflow: hidden;
+    border: 1px solid blue;
+    width: 90%;
+    margin: 0 auto;
+}
+.wrapper{}
+.logo{
+    border: 1px solid rgb(49, 62, 241);
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    border: 1px solid red;
+    width: 55%;
+    float: right;
+}
+.menu ul{
+   float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/*header end*/
